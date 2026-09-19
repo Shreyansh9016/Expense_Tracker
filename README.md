@@ -62,14 +62,8 @@ flowchart LR
     EC2 --> DB
 ```
 
-**In short**
-1. Upload the backend code to Elastic Beanstalk.
-2. Add the database connection string as an environment variable.
-3. Upload the React build to S3 and put CloudFront in front.
-
 ---
 
-## Which one?
 
 | | Plan 1: Container | Plan 2: Direct |
 |---|---|---|
