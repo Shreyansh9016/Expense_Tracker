@@ -1,0 +1,142 @@
+:root {
+  --bg: #f4f1fb;
+  --card: #ffffff;
+  --primary: #7c5cff;
+  --primary-dark: #6544e8;
+  --text: #2d2a3e;
+  --muted: #7b7891;
+  --border: #e3dff3;
+  --danger: #e5484d;
+  --danger-bg: #fdecec;
+}
+
+.container {
+  max-width: 760px;
+  margin: 30px auto;
+  padding: 0 16px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: var(--text);
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 24px;
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+form,
+section {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px rgba(124, 92, 255, 0.08);
+}
+
+input,
+select {
+  padding: 9px 10px;
+  margin: 4px 6px 4px 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+  background: #fff;
+  color: var(--text);
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(124, 92, 255, 0.2);
+}
+
+button {
+  padding: 9px 16px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 8px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--primary-dark);
+}
+
+td button {
+  background: var(--danger);
+  padding: 6px 12px;
+}
+
+td button:hover {
+  background: #c9383d;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+}
+
+li {
+  display: inline-block;
+  background: #efeaff;
+  color: var(--primary-dark);
+  padding: 6px 12px;
+  margin: 0 8px 8px 0;
+  border-radius: 20px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+strong {
+  display: block;
+  font-size: 18px;
+  color: var(--primary-dark);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th {
+  background: #efeaff;
+  color: var(--primary-dark);
+  text-align: left;
+  padding: 10px;
+  font-size: 14px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+tr:hover td {
+  background: #faf8ff;
+}
+
+.error {
+  color: var(--danger);
+  background: var(--danger-bg);
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin: 8px 0 0;
+}
+
+p {
+  color: var(--muted);
+}
