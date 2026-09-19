@@ -9,8 +9,8 @@ flowchart LR
         CF[CloudFront<br/>HTTPS + CDN]
         S3[(S3 bucket<br/>React build)]
         subgraph EC2[EC2 t3.micro]
-            NG[Nginx<br/>reverse proxy :80/:443]
-            API[Node/Express<br/>PM2 :5000]
+            NG[Nginx<br/>]
+            API[Node/Express<br/>]
         end
     end
     DB[(MongoDB Atlas<br/>free M0 cluster)]
