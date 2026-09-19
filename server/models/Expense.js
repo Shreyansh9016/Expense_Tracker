@@ -1,3 +1,5 @@
+// MongoDB runs in a Docker container: docker run -d -p 27017:27017 --name mongo mongo
+// Connection string (server/.env): MONGO_URI=mongodb://localhost:27017/expenses
 const mongoose = require('mongoose')
 
 const expenseSchema =new mongoose.Schema({
